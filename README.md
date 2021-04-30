@@ -1,1 +1,4 @@
 # Classify-Clothing-Image
+This guide trains a neural network model to classify images of clothing, like sneakers and shirts. It's okay if you don't understand all the details; this is a fast-paced overview of a complete TensorFlow program with the details explained as you go.
+This guide uses the Fashion MNIST dataset which contains 70,000 grayscale images in 10 categories. The images show individual articles of clothing at low resolution (28 by 28 pixels)
+The model is trained and stored by Python language, and the model is loaded into the code by using Flask implementation, and can accept a picture as input. After Flask calls the model, it identifies the picture content and returns the string of the corresponding clothing to the user. And the Flask end needs to identify the picture name and the identified picture content.And the current time in the Cassandra database
